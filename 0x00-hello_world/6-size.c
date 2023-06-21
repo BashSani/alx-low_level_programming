@@ -2,7 +2,7 @@
 /**
  * main - program to print size of data type
  * Return: 0
- * */
+ **/
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
