@@ -1,11 +1,13 @@
 #include <stdio.h>
+
 /**
  * main - program to print size of data type
  *
  * Description: size of diff. datatype
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	char a;
