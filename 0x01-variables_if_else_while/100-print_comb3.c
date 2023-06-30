@@ -6,21 +6,29 @@
  */
 int main(void)
 {
-	int x = 0, y = 0;
+	int x = 0;
+	int y, z;
 
 	while (x <= 9)
 	{
+		y = 0;
 		while (y <= 9)
 		{
-			if (x != y && x < y)
+			z = 0;
+			while (z <= 9)
 			{
-				putchar(x + 48);
-				putchar(y + 48);
-				if (x + y != 17)
+				if (x != y && x < y && y != z && y < z)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(x + 48);
+					putchar(y + 48);
+					putchar(z + 48);
+					if (x + y + z != 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
+				z++;
 			}
 			y++;
 		}
