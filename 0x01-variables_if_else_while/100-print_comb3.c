@@ -6,33 +6,23 @@
  */
 int main(void)
 {
-	int x = 0;
 	int y, z;
 
-	while (x <= 9)
+	for (y = 48; y <= 56; y++)
 	{
-		y = 0;
-		while (y <= 9)
+		for (z = 49; z <= 57; z++)
 		{
-			z = 0;
-			while (z <= 9)
+			if (z > y)
 			{
-				if (x != y && x < y && y != z && y < z)
+				putchar(y);
+				putchar(z);
+				if (y != 56 || z != 57)
 				{
-					putchar(x + 48);
-					putchar(y + 48);
-					putchar(z + 48);
-					if (x + y + z != 24)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(',');
+					putchar(' ');
 				}
-				z++;
 			}
-			y++;
 		}
-		y++;
 	}
 	putchar('\n');
 	return (0);
