@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_buffer - print the content of size bytes
+ * print_buffer - print buffer
  * @b: buffer
- * @size: print the buffer size
- * Return: 0
+ * @size: size
+ * Return: Always(0)
 */
 void print_buffer(char *b, int size)
 {
