@@ -4,8 +4,8 @@
  * print_buffer - print the content of size bytes
  * @b: buffer
  * @size: print the buffer size
- * Return: void
- */
+ * Return: 0
+*/
 void print_buffer(char *b, int size)
 {
 	int x, y, z;
