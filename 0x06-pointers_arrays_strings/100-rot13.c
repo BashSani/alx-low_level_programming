@@ -11,7 +11,7 @@ char *rot13(char *n)
 	char input1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char input2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (x = 0; s[x] != '\0'; x++)
+	for (x = 0; n[x] != '\0'; x++)
 	{
 		for (y = 0; y < 52; y++)
 		{
