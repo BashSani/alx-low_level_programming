@@ -17,7 +17,7 @@ char *rot13(char *n)
 		{
 			if (n[x] == input1[y])
 			{
-				n[x] = input[y];
+				n[x] = input2[y];
 				break;
 			}
 		}
