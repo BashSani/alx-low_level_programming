@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * Add - Adding two values
- * A : First num
- * B : Second num
+ * add - Adding two values
+ * @A: First integer
+ * @B: Second integer
  * Return: Int value
- */
+*/
 
 int add(int A, int B)
 {
