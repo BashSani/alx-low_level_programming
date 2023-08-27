@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	long int j = 1, k = 2, l;
+	unsigned long j = 1, k = 2, l;
 
 	for (i = 0; i < 50; i++)
 	{
