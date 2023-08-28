@@ -10,11 +10,11 @@ int main(void)
 	float h;
 	unsigned long b = 0, a = 1, s;
 
-	while (s + b < 4000000)
+	while (s + b <= 4000000)
 	{
 		s += b;
 		if (s % 2 == 0)
-			s += a;
+		s += a;
 		b = a - b;
 		++h;
 	}
