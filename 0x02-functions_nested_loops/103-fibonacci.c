@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int h;
+	int h = 0;
 	unsigned long b = 1, a = 2, s;
 
-	while (s + b <= 4000000)
+	while (s + b < 4000000)
 	{
 		s += b;
 		if (s % 2 == 0)
