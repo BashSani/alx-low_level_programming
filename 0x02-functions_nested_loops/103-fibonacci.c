@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	float h;
+	int h;
 	unsigned long b = 1, a = 2, s;
 
 	while (s + b <= 4000000)
