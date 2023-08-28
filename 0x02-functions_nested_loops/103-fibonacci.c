@@ -8,7 +8,7 @@
 int main(void)
 {
 	float h;
-	unsigned long b = 0, a = 1, s;
+	unsigned long b = 1, a = 2, s;
 
 	while (s + b <= 4000000)
 	{
