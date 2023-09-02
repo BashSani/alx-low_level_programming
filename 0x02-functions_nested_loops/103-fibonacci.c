@@ -7,17 +7,20 @@
 
 int main(void)
 {
-	int h = 0;
+	float h = 0;
 	unsigned long b = 1, a = 2, s;
 
-	while (s + b < 4000000)
+	while (1)
 	{
-		s += b;
-		if (s % 2 == 0)
-		s += a;
-		b = a - b;
-		++h;
+		s = b + a;
+		if (s > 4000000)
+			break;
+		if ((s % 2) == 0)
+			h += s;
+
+		b = a;
+		a = s;
 	}
-	printf("%ld\n", s);
+	printf("%.0f\n", h);
 	return (0);
 }
