@@ -8,7 +8,7 @@
 int main(void)
 {
 	float h = 0;
-	unsigned long b = 1, a = 2, s;
+	unsigned long b = 0, a = 1, s;
 
 	while (1)
 	{
