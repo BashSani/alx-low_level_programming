@@ -34,8 +34,7 @@ int main(void)
 		}
 		printf("%lu%lu", h, hh);
 		if (c != 98)
-			printf(",");
-		printf(" ");
+			printf(", ");
 		bh = ah;
 		bhh = ahh;
 		ah = h;
