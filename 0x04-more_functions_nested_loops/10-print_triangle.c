@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- *print_triangle - prints a triangle
+ * print_triangle - prints a triangle
  *
- *@size: size of the triangle
- *Return: empty
-*/
+ * @size: size of the triangle
+ * Return: empty
+ */
 
 void print_triangle(int size)
+
 {
 	int i, x, k;
 
