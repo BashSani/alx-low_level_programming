@@ -10,18 +10,18 @@ void print_diagonal(int n)
 {
 	int p, x;
 
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (p = 1; p <= n; p++)
+		for (p = 0; p < n; p++)
 		{
-			for (x = 1; x <= p; x++)
-				_putchar(' ');
-			_putchar(92);
+			if (n > 1)
+				for (x = 1; x <= p; x++)
+				{
+					_putchar(' ');
+				}
+			_putchar('\\');
 			_putchar('\n');
 		}
-	}
+		if (n <= 0)
+		{
+			_putchar('\n');
+		}
 }
