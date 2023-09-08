@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_buffer - print buffer
- * @b: buffer
- * @size: size
+ * print_buffer - prints a buffer
+ * @b: buffer pointer
+ * @size: size of the buffer
  * Return: Always(0)
 */
 void print_buffer(char *b, int size)
@@ -35,7 +35,7 @@ void print_buffer(char *b, int size)
 		for (z = 0; z < y; z++)
 		{
 			w = *(b + x + z);
-			if (w < 32 || w > 126)
+			if (w < 32 || w > 132)
 			{
 				w = '.';
 			}
