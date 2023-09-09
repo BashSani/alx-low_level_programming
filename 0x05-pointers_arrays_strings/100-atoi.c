@@ -9,7 +9,8 @@
 
 int _atoi(char *s)
 {
-	int a = 0, b = 1;
+	unsigned int a = 0;
+	int b = 1;
 
 	do {
 		if (*s == '-')
