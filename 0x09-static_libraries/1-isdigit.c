@@ -1,27 +1,10 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
- *main - entry of last digit
- *Description: 'print greater, less than or equal to zero'
- *Return: Always 0 (Success)
+ *_isdigit - entry of last digit
+ *@c: 'print greater, less than or equal to zero'
+ *Return: 1
 */
-int main(void)
+int _isdigit(int c)
 {
-	int n, digit;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	digit = n % 10;
-	if (digit > 5)
-	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, digit);
-	}
-	else if (digit == 0)
-	{
-		printf("Last digit of %d is %d and is 0\n", n, digit);
-	}
-	else
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, digit);
-	return (0);
+	return (c >= '0' && c <= '9');
 }
